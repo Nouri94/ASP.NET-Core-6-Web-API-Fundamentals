@@ -7,7 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers(options => //configure API headers
 {
     options.ReturnHttpNotAcceptable = true;
-}).AddXmlDataContractSerializerFormatters(); // added support from content-type = application-xml
+})  .AddNewtonsoftJson()
+    .AddXmlDataContractSerializerFormatters(); // added support from content-type = application-xml
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
