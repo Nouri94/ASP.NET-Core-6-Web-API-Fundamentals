@@ -21,7 +21,7 @@ namespace CityInfo.API.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<PointOfInterest>> GetPointsOfInterest(int cityId)
+        public ActionResult<IEnumerable<PointOfInterestDto>> GetPointsOfInterest(int cityId)
         {
             try
             {
@@ -42,7 +42,7 @@ namespace CityInfo.API.Controllers
         }
 
         [HttpGet("{pointofinterestid}", Name ="GetPointOfInterest")]
-        public ActionResult<PointOfInterest> GetPointOfInterest(int cityId, int PointOfInterestId)
+        public ActionResult<PointOfInterestDto> GetPointOfInterest(int cityId, int PointOfInterestId)
         {
             // find city
             var city = _citiesDataStore.Cities.FirstOrDefault(c => c.Id == cityId);
@@ -63,7 +63,7 @@ namespace CityInfo.API.Controllers
         }
 
         [HttpPost]
-        public ActionResult<PointOfInterest> CreatePointOfInterest(int cityId, PointOfInterestForCreation pointOfInterest)
+        public ActionResult<PointOfInterestDto> CreatePointOfInterest(int cityId, PointOfInterestForCreation pointOfInterest)
         {
            
             // find city
@@ -75,7 +75,7 @@ namespace CityInfo.API.Controllers
 
             // Calculate the highest id of all points of interests 
             var MaxPointOfInterestId = _citiesDataStore.Cities.SelectMany(c => c.PointsOfInterest).Max(p => p.Id);
-            var finalPointOfInterest = new PointOfInterest()
+            var finalPointOfInterest = new PointOfInterestDto()
             {
                 Id = ++MaxPointOfInterestId,
                 Name = pointOfInterest.Name,
@@ -91,7 +91,7 @@ namespace CityInfo.API.Controllers
         }
 
         [HttpPut("{pointofinterestid}")]
-        public ActionResult<PointOfInterest> UpdatePointOfInterest(int cityId, int PointOfInterestId, PointOfInterestForUpdate pointOfInterest)
+        public ActionResult<PointOfInterestDto> UpdatePointOfInterest(int cityId, int PointOfInterestId, PointOfInterestForUpdate pointOfInterest)
         {
 
             // find city

@@ -13,12 +13,12 @@ namespace CityInfo.API.Controllers
             _citiesDataStore = citiesDataStore ?? throw new ArgumentNullException(nameof(citiesDataStore));
         }
         [HttpGet]
-        public ActionResult<IEnumerable<City>> GetCities()
+        public ActionResult<IEnumerable<CityDto>> GetCities()
         {
             return Ok(_citiesDataStore.Cities);
         }
         [HttpGet("{id}")]
-        public ActionResult<City> GetCity(int id)
+        public ActionResult<CityDto> GetCity(int id)
         {
             // find city
             var cityToReturn = _citiesDataStore.Cities.FirstOrDefault(c => c.Id == id);
