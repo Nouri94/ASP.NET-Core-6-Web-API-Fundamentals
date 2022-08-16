@@ -2,8 +2,13 @@
 {
     public class LocalMailService : IMailService
     {
-        private string _mailTo = "admin@hotmail.com";
-        private string _mailFrom = "noreplay@hotmail.com";
+        private readonly string _mailTo = string.Empty;
+        private readonly string _mailFrom = string.Empty;
+        public LocalMailService(IConfiguration config)
+        {
+            _mailTo = config["MailSettings:mailToAdress"];
+            _mailFrom = config["MailSettings:mailFromAdress"];
+        }
         public void Send(string subject, string msg)
         {
             Console.WriteLine($" Mail from {_mailFrom} to {_mailTo} with {nameof(LocalMailService)}");

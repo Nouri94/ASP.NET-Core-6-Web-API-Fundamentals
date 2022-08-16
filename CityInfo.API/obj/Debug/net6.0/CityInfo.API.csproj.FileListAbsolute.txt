@@ -40,3 +40,4 @@ C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\Serilog.Set
 C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\appsettings.Prod.json
