@@ -1,8 +1,9 @@
 using CityInfo.API;
+using CityInfo.API.DbContexts;
 using CityInfo.API.Services;
 using Microsoft.AspNetCore.StaticFiles;
 using Serilog;
-
+using Microsoft.EntityFrameworkCore;
 //Create serilog logger (Downloaded NuGet)
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Debug()
@@ -33,7 +34,8 @@ builder.Services.AddTransient<IMailService,CloudMailservice>(); // on Release mo
 
 
 builder.Services.AddSingleton<CitiesDataStore>();
-
+builder.Services.AddDbContext<CityInfoContext>(dbContextOptions => 
+dbContextOptions.UseSqlite("Data source=CityInfo.db"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
