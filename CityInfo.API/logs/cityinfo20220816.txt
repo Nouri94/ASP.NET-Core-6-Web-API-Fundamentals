@@ -1,0 +1,86 @@
+2022-08-16 10:05:29.588 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-16 10:05:29.668 +02:00 [DBG] Hosting starting
+2022-08-16 10:05:29.726 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: ED4BB641F64595CDD5C0BE9D0FF2A1C95A4ADDE8)
+2022-08-16 10:05:29.766 +02:00 [INF] Now listening on: https://localhost:7175
+2022-08-16 10:05:29.768 +02:00 [INF] Now listening on: http://localhost:5175
+2022-08-16 10:05:29.770 +02:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-08-16 10:05:29.772 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-16 10:05:29.772 +02:00 [INF] Hosting environment: Development
+2022-08-16 10:05:29.773 +02:00 [INF] Content root path: C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\
+2022-08-16 10:05:29.773 +02:00 [DBG] Hosting started
+2022-08-16 10:05:44.002 +02:00 [INF] Application is shutting down...
+2022-08-16 10:05:44.003 +02:00 [DBG] Hosting stopping
+2022-08-16 10:05:44.013 +02:00 [DBG] Hosting stopped
+2022-08-16 10:07:22.569 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-16 10:07:22.638 +02:00 [DBG] Hosting starting
+2022-08-16 10:07:22.695 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: ED4BB641F64595CDD5C0BE9D0FF2A1C95A4ADDE8)
+2022-08-16 10:07:22.733 +02:00 [INF] Now listening on: https://localhost:7175
+2022-08-16 10:07:22.735 +02:00 [INF] Now listening on: http://localhost:5175
+2022-08-16 10:07:22.737 +02:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-08-16 10:07:22.738 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-16 10:07:22.739 +02:00 [INF] Hosting environment: Development
+2022-08-16 10:07:22.739 +02:00 [INF] Content root path: C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\
+2022-08-16 10:07:22.740 +02:00 [DBG] Hosting started
+2022-08-16 10:07:56.561 +02:00 [INF] Application is shutting down...
+2022-08-16 10:07:56.563 +02:00 [DBG] Hosting stopping
+2022-08-16 10:07:56.572 +02:00 [DBG] Hosting stopped
+2022-08-16 10:10:15.333 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-16 10:10:15.407 +02:00 [DBG] Hosting starting
+2022-08-16 10:10:15.465 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: ED4BB641F64595CDD5C0BE9D0FF2A1C95A4ADDE8)
+2022-08-16 10:10:15.502 +02:00 [INF] Now listening on: https://localhost:7175
+2022-08-16 10:10:15.505 +02:00 [INF] Now listening on: http://localhost:5175
+2022-08-16 10:10:15.507 +02:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-08-16 10:10:15.509 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-16 10:10:15.510 +02:00 [INF] Hosting environment: Development
+2022-08-16 10:10:15.511 +02:00 [INF] Content root path: C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\
+2022-08-16 10:10:15.511 +02:00 [DBG] Hosting started
+2022-08-16 10:10:18.534 +02:00 [DBG] Connection id "0HMJVBR10H3A9" received FIN.
+2022-08-16 10:10:18.541 +02:00 [DBG] Connection id "0HMJVBR10H3A9" accepted.
+2022-08-16 10:10:18.542 +02:00 [DBG] Connection id "0HMJVBR10H3A9" started.
+2022-08-16 10:10:18.543 +02:00 [DBG] Connection id "0HMJVBR10H3AA" accepted.
+2022-08-16 10:10:18.544 +02:00 [DBG] Connection id "0HMJVBR10H3AA" started.
+2022-08-16 10:10:18.554 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-16 10:10:18.586 +02:00 [DBG] Connection id "0HMJVBR10H3A9" stopped.
+2022-08-16 10:10:18.588 +02:00 [DBG] Connection id "0HMJVBR10H3A9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-16 10:10:18.589 +02:00 [DBG] Connection 0HMJVBR10H3AA established using the following protocol: "Tls12"
+2022-08-16 10:10:18.622 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7175/api/cities/4/pointsofinterest - -
+2022-08-16 10:10:18.624 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-16 10:10:18.654 +02:00 [DBG] The request path  does not match the path filter
+2022-08-16 10:10:18.677 +02:00 [DBG] 1 candidate(s) found for the request path '/api/cities/4/pointsofinterest'
+2022-08-16 10:10:18.681 +02:00 [DBG] Endpoint 'CityInfo.API.Controllers.PointOfInterestController.GetPointsOfInterest (CityInfo.API)' with route pattern 'api/cities/{cityId}/pointsofinterest' is valid for the request path '/api/cities/4/pointsofinterest'
+2022-08-16 10:10:18.683 +02:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.PointOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2022-08-16 10:10:18.685 +02:00 [INF] Executing endpoint 'CityInfo.API.Controllers.PointOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2022-08-16 10:10:18.701 +02:00 [INF] Route matched with {action = "GetPointsOfInterest", controller = "PointOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.PointOfInterest]] GetPointsOfInterest(Int32) on controller CityInfo.API.Controllers.PointOfInterestController (CityInfo.API).
+2022-08-16 10:10:18.706 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-16 10:10:18.707 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-16 10:10:18.710 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-16 10:10:18.713 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-16 10:10:18.713 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-16 10:10:18.715 +02:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.PointOfInterestController (CityInfo.API)
+2022-08-16 10:10:18.716 +02:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.PointOfInterestController (CityInfo.API)
+2022-08-16 10:10:18.722 +02:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' ...
+2022-08-16 10:10:18.724 +02:00 [DBG] Attempting to bind parameter 'cityId' of type 'System.Int32' using the name 'cityId' in request data ...
+2022-08-16 10:10:18.726 +02:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-08-16 10:10:18.727 +02:00 [DBG] Done attempting to bind parameter 'cityId' of type 'System.Int32'.
+2022-08-16 10:10:18.728 +02:00 [DBG] Attempting to validate the bound parameter 'cityId' of type 'System.Int32' ...
+2022-08-16 10:10:18.730 +02:00 [DBG] Done attempting to validate the bound parameter 'cityId' of type 'System.Int32'.
+2022-08-16 10:10:18.732 +02:00 [INF] City with id 4 was'nt found
+2022-08-16 10:10:18.734 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-08-16 10:10:18.738 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-08-16 10:10:18.741 +02:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-08-16 10:10:18.744 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-08-16 10:10:18.746 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2022-08-16 10:10:18.827 +02:00 [INF] Executed action CityInfo.API.Controllers.PointOfInterestController.GetPointsOfInterest (CityInfo.API) in 109.2908ms
+2022-08-16 10:10:18.831 +02:00 [INF] Executed endpoint 'CityInfo.API.Controllers.PointOfInterestController.GetPointsOfInterest (CityInfo.API)'
+2022-08-16 10:10:18.832 +02:00 [DBG] Connection id "0HMJVBR10H3AA" completed keep alive response.
+2022-08-16 10:10:18.834 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7175/api/cities/4/pointsofinterest - - - 404 161 application/problem+json;+charset=utf-8 215.7991ms
+2022-08-16 10:11:20.871 +02:00 [INF] Application is shutting down...
+2022-08-16 10:11:20.874 +02:00 [DBG] Hosting stopping
+2022-08-16 10:11:20.882 +02:00 [DBG] Connection id "0HMJVBR10H3AA" disconnecting.
+2022-08-16 10:11:20.883 +02:00 [DBG] Connection id "0HMJVBR10H3AA" stopped.
+2022-08-16 10:11:20.884 +02:00 [DBG] Connection id "0HMJVBR10H3AA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-16 10:11:20.889 +02:00 [DBG] Hosting stopped
