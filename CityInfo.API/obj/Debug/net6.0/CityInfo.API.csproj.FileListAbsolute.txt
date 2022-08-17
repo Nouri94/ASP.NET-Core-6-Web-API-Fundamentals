@@ -67,3 +67,5 @@ C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\runtimes\wi
 C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -12,7 +12,7 @@ namespace CityInfo.API.Services
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
-        public async Task<City?> GetCityAsunc(int CityId, bool IncludePointOfInterest)
+        public async Task<City?> GetCityAsync(int CityId, bool IncludePointOfInterest)
         {
             if (IncludePointOfInterest)
             {

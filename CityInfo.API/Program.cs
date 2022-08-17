@@ -32,7 +32,7 @@ builder.Services.AddTransient<IMailService, LocalMailService>(); // On debug mod
 builder.Services.AddTransient<IMailService,CloudMailservice>(); // on Release mode
 #endif
 
-
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddSingleton<CitiesDataStore>();
 builder.Services.AddDbContext<CityInfoContext>(dbContextOptions =>
 dbContextOptions.UseSqlite(builder.Configuration["ConnectionString:CityInfoDBConnectionString"]));
