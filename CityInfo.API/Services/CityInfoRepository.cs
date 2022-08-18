@@ -26,14 +26,16 @@ namespace CityInfo.API.Services
         {
             return await _context.Cities.OrderBy(c => c.Name).ToListAsync();
         }
-        public async Task<IEnumerable<City>> GetCtiesAsync(string? name, string? searchQuery)
+        public async Task<(IEnumerable<City>, PaginationMetaData)> GetCtiesAsync(string? name, string? searchQuery, int pageNumber, int pageSize)
         {
-            // Both Empty
-            if (string.IsNullOrEmpty(name) && string.IsNullOrWhiteSpace(searchQuery))
-            {
-                return await GetCtiesAsync();
-            }
-            // Collection to start from
+            // Both Empty (Since we have Paging implemented there is no need to check if both are empty)
+            //if (string.IsNullOrEmpty(name) && string.IsNullOrWhiteSpace(searchQuery))
+            //{
+            //    return await GetCtiesAsync();
+            //}
+            // Collection is used to filter&Search data at the database level and not after that
+            //This means that you do not need to get all data then filter&search instead you
+            ////build Query with filter and send it to the database
             var collection = _context.Cities as IQueryable<City>;
 
             if (!string.IsNullOrWhiteSpace(name))
@@ -48,7 +50,10 @@ namespace CityInfo.API.Services
                 collection = collection.Where(a=>a.Name.Contains(searchQuery) ||
                 (a.Description != null && a.Description.Contains(searchQuery)));
             }
-            return await collection.OrderBy(a => a.Name).ToListAsync();
+            var totalItemCount = await collection.CountAsync(); // Gets total amount of items in the database
+            var pagingtonMetaData = new PaginationMetaData(totalItemCount, pageSize, pageNumber);
+            var collectionToReturn = await collection.OrderBy(a => a.Name).Skip(pageSize*(pageNumber-1)).Take(pageSize).ToListAsync();
+            return (collectionToReturn, pagingtonMetaData);
         }
         public async Task<PointOfInterest?> GetPointOfInterestForCityAsync(int CityId, int PointOfInterestId)
         {
