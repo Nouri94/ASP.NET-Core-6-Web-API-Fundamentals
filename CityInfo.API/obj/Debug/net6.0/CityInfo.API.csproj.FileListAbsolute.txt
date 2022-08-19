@@ -77,3 +77,4 @@ C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\System.Iden
 C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nissaki\source\repos\CityInfo\CityInfo.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
